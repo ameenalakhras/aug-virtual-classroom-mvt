@@ -5,6 +5,8 @@ WEBSITE_NAME = "aug-virtual-class-mvt"
 # the name for the directory that the settings.py file is in
 PROJECT_MAIN_APP_NAME = "virtual_class"
 
+AUTH_USER_MODEL = "authentication.User"
+
 
 WEBSITE_GLOBAL_URL = f'{WEBSITE_NAME}.herokuapp.com'
 
@@ -37,6 +39,13 @@ INSTALLED_APPS = [
 
     #for aws s3 storage (for static files)
     'storages',
+
+    'authentication',
+    'base',
+    'classroom',
+    'course',
+    'mail',
+    'notifications',
 
 ]
 

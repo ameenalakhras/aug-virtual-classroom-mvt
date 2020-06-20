@@ -3,3 +3,8 @@ secret.env
 static/
 staticfiles/
 .idea/
+db.sqlite3
+*/migrations/*
+!*/migrations/__init__.py
+*/__pycache__/
+*/*/__pycache__/
